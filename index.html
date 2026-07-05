@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>GitHub Profile Finder</title>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1 class="title">GitHub Profile Finder</h1>
+
+    <!-- Search -->
+    <form class="search-form">
+
+      <input
+        type="text"
+        class="search-input"
+        placeholder="Enter GitHub username..."
+        autocomplete="off"
+      >
+
+      <button class="search-btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+
+    </form>
+
+    <p class="message"></p>
+
+    <!-- Profile Card -->
+
+    <section class="profile-card">
+
+      <img
+        src="images/github.jpg"
+        alt="GitHub Profile"
+        class="profile-image"
+      >
+
+      <div class="profile-info">
+
+        <h2 class="name">Name</h2>
+
+        <p class="username">@username</p>
+
+        <p class="bio">
+          Bio will appear here...
+        </p>
+
+        <!-- Stats -->
+
+        <div class="stats">
+
+          <div class="stat">
+            <h3 class="repos">0</h3>
+            <span>Repositories</span>
+          </div>
+
+          <div class="stat">
+            <h3 class="followers">0</h3>
+            <span>Followers</span>
+          </div>
+
+          <div class="stat">
+            <h3 class="following">0</h3>
+            <span>Following</span>
+          </div>
+
+        </div>
+
+        <!-- Extra Information -->
+
+        <div class="extra-info">
+
+          <p class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <span class="location-text">Location</span>
+          </p>
+
+        </div>
+
+        <a
+          href="#"
+          class="profile-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View GitHub Profile
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
