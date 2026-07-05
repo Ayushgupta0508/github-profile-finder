@@ -39,19 +39,19 @@ This is simple Github Profile Finder application build using HTML , CSS , JavaSc
 
 ### Nointernet 
 
-![Home](images/.png)
+![Home](images/invalid.png)
 
 ### Sucessful Search
 
-![Sucessful Search](images/.png)
+![Sucessful Search](images/sucessful.png)
 
 ### Invalid Username
 
-![Invalid City](images/.png)
+![Invalid Username](images/Invalid.png)
 
 ## Live Demo
 
-
+[Live Demo](https://github-profile-finder-kappa-two.vercel.app/)
 
 ## Author
 
